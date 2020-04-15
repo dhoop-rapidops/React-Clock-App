@@ -1,0 +1,50 @@
+.container {
+    margin-top: 200px;
+}
+
+.center {
+    width: 480px;
+    margin: auto;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.digit, .period {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
+    background-color: #fff;
+    font-family: Oswald, sans-serif;
+}
+
+.digit {
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 100px;
+    color: #555;
+}
+
+.day, .date {
+    padding: 10px;
+    margin: 35px;
+}
+
+.day {
+    font-size: 52px;
+}
+
+.date {
+    font-size: 45px;
+}
+
+.period {
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
